@@ -16,4 +16,4 @@ app.get("/status", (req, res) => {
     });
 });
 
-app.listen(PORT, () => { console.log(`App started and running in PORT ${ PORT }...`) });
+app.listen(PORT, () => { console.log(`Listening and running in PORT ${ PORT }...`) });
